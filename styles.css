@@ -3,60 +3,103 @@ body {
   font-size: 16px;
 }
 
+h2 {
+  color: hsl(204, 43%, 93%);
+}
+
+p {
+  font-weight: 400;
+}
+
+.heading {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+}
+
 .container {
   background-color: #e5eff5;
   padding: 10rem;
 }
 
-
 /*div styling*/
-
 .join-div {
   background: white;
   border-radius: 10px 10px 0 0;
   border-bottom: 0;
   box-shadow: 5px 0 5px 5px hsl(204, 43%, 93%);
   line-height: 1.5;
-  margin-left: 150px;
-  width: 30rem;
-  padding: 1rem;
-  padding-left: 1rem;
+  margin-left: 7rem;
+  width: 33rem;
+  padding: 2rem;
+  font-weight: 700;
 }
 
 .join-div {
-  color: #2ab2af;
+  color: hsl(179, 62%, 43%);
 }
 
 .join-div h4 {
-  color: #c0df34;
+  color: hsl(71, 73%, 54%);
 }
 
 .join-div p {
-  color: #98a6bd;
+  color: hsl(218, 22%, 67%);
+}
+
+.sub-why-div {
+  display: flex;
 }
 
 .sub-div {
-  background: #2ab2af;
+  background: hsl(179, 62%, 40%);
   border-radius: 0 0 0 10px;
-  margin-left: 150px;
+  margin-left: 7rem;
   font-size: 16px;
   text-align: justify;
-  color: White;
-  width: 12rem;
+  color: hsl(204, 43%, 93%);
+  width: 14.5rem;
   padding: 2rem;
 }
 
 .why-us-div {
-  background: #2ab2af;
+  background: hsl(179, 62%, 43%);
   border-radius: 0 0 10px 0;
-  margin-left: 23.5rem;
   position: relative;
-  bottom: 16.85rem;
   font-size: 16px;
-  font-weight: lighter;
   text-align: justify;
   line-height: 0.80;
-  color: white;
-  width: 12rem;
+  color: hsl(204, 43%, 85%);
+  width: 14.5rem;
   padding: 2rem;
 }
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 7px;
+  border-radius: 10px;
+  height: 10px;
+  line-height: 1px;
+  color: #FFFFFF;
+  font-family: "karla", sans-serif;
+  width: 240px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1.3rem;
+  background-color: #C0DF34;
+  border: solid #2AB2AF 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  color: #2AB2AF;
+  background-color: hsl(204, 43%, 85%);
+}
+
+.attribution {
+  text-align: center;
+  background-color: hsl(204, 43%, 93%);
+}
+
